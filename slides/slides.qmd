@@ -163,7 +163,7 @@ Commit messages
 
 - Think about it as: which files do you want to include on the stage?
 
-- Include all files for now.
+- You'll usually want to include all files. 
 
 ## Commit Messages {.inverse}
 
