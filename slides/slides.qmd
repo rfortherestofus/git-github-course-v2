@@ -197,16 +197,94 @@ Explain diffs
 
 1. View the history of your repository
 
-1. Make sure you understand the commit history (top section) and the diff (bottom section)
-
---
-
-1. View your README.md at a previous commit by clicking on "View file ..."
+1. Make sure you understand the commit history and the diff
 
 # GitHub {.inverse}
 
-# Push an RStudio Project to a GitHub Repository {.inverse}
+## GitHub Repositories
+
+- aka "repo"
+
+- One repository for each project
+
+---
+
+![](images/bg-github-repo.png)
+
+## GitHub Commit History
+
+![](images/github-commit-history.png)
+
+::: {.notes}
+It's basically the same as GH Desktop
+
+Same as viewing locally but you can also see code as it was at any point
+:::
+
+## Diffs on GitHub
+
+![](images/github-diff.png)
+
+## View Past Versions of Code
+
+![](images/github-past-versions.svg)
+
+## Your Turn {.your-turn}
+
+1. Open the [GitHub repository with the materials for this course](https://github.com/rfortherestofus/git-github-course-v2)
+
+1. Click on commits
+
+1. Take a look through the commit history to see how the code changed over time
+
+# Push an RStudio Project to GitHub {.inverse}
+
+## Sign Up for GitHub
+
+![](images/github-signup.svg)
+
+## Publish Your Project
+
+![](images/publish-repository.png)
+
+## Your Turn {.your-turn}
+
+1. Publish your `local-first` project to GitHub using the Publish Repository Button
 
 # Pull a GitHub Repository to an RStudio Project {.inverse}
 
+## Create a New Repository on GitHub
+
+[![](images/github-new-repo.png)](https://github.com/new)
+
+## Clone the Repository
+
+![](images/clone-repo-gh-desktop.png)
+
+## Your Turn {.your-turn}
+
+1. Create a new repository on GitHub called `github-first`
+
+1. Create a new project in RStudio by cloning the `github-first` GitHub repository you just created
+
 # Keep RStudio and GitHub in Sync {.inverse}
+
+## Keep RStudio and GitHub in Sync
+
+1. Work in RStudio
+
+1. Any time you make significant changes, make a commit
+
+1. Push your work to GitHub
+
+## Your Turn {.your-turn}
+
+1. Create a README.md in the `github-first` project and add some text
+
+1. Stage this file (and any other modified files) and add a commit message
+
+1. Hit commit
+
+1. After you commit, push your changes to GitHub
+
+1. Go to your GitHub repository and make sure you see your changes
