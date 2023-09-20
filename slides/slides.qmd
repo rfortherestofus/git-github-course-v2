@@ -117,6 +117,18 @@ title-slide-attributes:
 
 # Install and Configure GitHub Desktop {.inverse}
 
+## Sign Up for GitHub
+
+![](images/github-signup.svg)
+
+## Connect GitHub Desktop
+
+![](images/gh-desktop-sign-in-github.png)
+
+## Add Your Name and Email
+
+![](images/gh-desktop-name-email.png)
+
 # Create a Local Git Repository {.inverse}
 
 ## Your Turn {.your-turn}
@@ -239,9 +251,7 @@ Same as viewing locally but you can also see code as it was at any point
 
 # Push an RStudio Project to GitHub {.inverse}
 
-## Sign Up for GitHub
 
-![](images/github-signup.svg)
 
 ## Publish Your Project
 
