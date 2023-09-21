@@ -100,20 +100,6 @@ title-slide-attributes:
 
 ![](images/git-collaboration4.svg)
 
-# Update Everything {.inverse background-image="images/bg-setup.jpg"}
-
----
-
-![](images/setup-90pct.svg)
-
-## Your Turn {.your-turn}
-
-1. Update R
-
-1. Update RStudio
-
-1. Update all of your R packages
-
 
 # Install and Configure GitHub Desktop {.inverse}
 
@@ -131,6 +117,12 @@ title-slide-attributes:
 
 # Create a Local Git Repository {.inverse}
 
+## Create a Local Git Repository
+
+1. Create a project in RStudio
+
+1. Create a Git repository in GitHub Desktop
+
 ## Your Turn {.your-turn}
 
 1. Create a new RStudio project called `local-first`
@@ -140,6 +132,8 @@ title-slide-attributes:
 # Commits {.inverse}
 
 ::: {.notes}
+Dropbox syncs all the time. Git requires you to tell it when to sync.
+
 Commits are a snapshot of your code at any point
 
 Staging files
@@ -179,6 +173,22 @@ Commit messages
 Switch to GitHub Desktop
 :::
 
+## Commit Messages Should ...
+
+1. Be short
+
+1. Tell exactly what was changed in that commit
+
+::: {.notes}
+1. Don't use and
+
+1. Allow you to easily review your commit messages later and see what was happening
+:::
+
+
+
+
+
 ## Your Turn {.your-turn}
 
 1. Create a new file called README.md in your `local-first` project and add text
@@ -193,13 +203,13 @@ Switch to GitHub Desktop
 
 # Commit History {.inverse background-image="images/bg-time-travel.jpg"}
 
-::: {.notes}
-Explain that we make commit message to know what's different at this point
+## Commit History
 
-Show just in RStudio
+TODO: Add image of local-first-v2 commit history
 
-Explain diffs
-:::
+## Diffs
+
+TODO: Add image of local-first-v2 diff
 
 ## Your Turn {.your-turn}
 
@@ -235,7 +245,7 @@ Same as viewing locally but you can also see code as it was at any point
 
 ## Diffs on GitHub
 
-![](images/github-diff.png)
+TODO: Update image to show diff for local-first-v2
 
 ## View Past Versions of Code
 
